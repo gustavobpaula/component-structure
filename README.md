@@ -15,12 +15,12 @@ All components can be composed of an `index.scss`, `index.js`, and `index.html`.
 
 ```bash
 ├── src
-    ├── index.html
-    ├── Components
-    │   ├── HelloWorld
-    │   │   ├── index.js
-    │   │   ├── index.scss
-    └── └── └──  index.html
+│   ├── index.html
+│   ├── Components
+│   │   ├── HelloWorld
+│   │   │   ├── index.js
+│   │   │   ├── index.scss
+└── └── └── └──  index.html
 ```
 
 
