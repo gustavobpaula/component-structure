@@ -13,15 +13,16 @@ Run `gulp --production` for production files
 All components are created inside the folder `Components` (Ex: `src/Components/{ComponentName}`)<br />
 All components can be composed of an `index.scss`, `index.js`, and `index.html`. Ex: <br/>
 
+```bash
+├── src
+    ├── index.html
+    ├── Components
+    │   ├── HelloWorld
+    │   │   ├── index.js
+    │   │   ├── index.scss
+    └── └── └──  index.html
 ```
--src
-|- index.html
-|- Components
-|-- HelloWorld
-|--- index.js
-|--- index.scss
-|--- index.html
-```
+
 
 To import the component, simply include the div tag in the main html (`index.html`) by passing the `data-type=component` and `data-name={component-name}`. Ex:
 ```
